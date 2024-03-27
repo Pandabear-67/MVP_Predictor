@@ -1,20 +1,9 @@
-Implementing backtesting (research more upon this) Learn more about backtesting and how we can implement it in our case
-
-
-# def backtest(model, years):
-#     mse_lst = []
-#     all_predictions = []
-#     for year in years:
-#         X_train, X_test, Y, test = train_test_split(year, mvp_players)
-#         results, mse = run_model(model,  X_train=X_train, X_test=X_test, Y = Y, test=test)
-#         all_predictions.append(results)
-#         mse_lst.append(mse)
-
-#     return sum(mse_lst)/len(mse_lst)
-#     # , mse_lst, pd.concat(all_predictions)    
-
 Make a new metric (rank-based) (Do this NEXT important !!!)
+
+Optimize the model based on the created rank-based metric
 
 Filter out potential mvp candidates by minimum of stats of previous years mvp shares
 
 Filter out players that aren't going to be eligible
+
+Make a script that automatically updates model every week?
