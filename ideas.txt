@@ -12,3 +12,9 @@ Implementing backtesting (research more upon this) Learn more about backtesting 
 
 #     return sum(mse_lst)/len(mse_lst)
 #     # , mse_lst, pd.concat(all_predictions)    
+
+Make a new metric (rank-based) (Do this NEXT important !!!)
+
+Filter out potential mvp candidates by minimum of stats of previous years mvp shares
+
+Filter out players that aren't going to be eligible
