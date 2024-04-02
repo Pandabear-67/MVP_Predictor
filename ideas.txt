@@ -7,3 +7,5 @@ Filter out potential mvp candidates by minimum of stats of previous years mvp sh
 Filter out players that aren't going to be eligible
 
 Make a script that automatically updates model every week?
+
+& (stats_2024["W/L%"] > 0.22) (Not considering w/l %)
